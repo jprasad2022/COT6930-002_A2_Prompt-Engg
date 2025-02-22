@@ -1,7 +1,6 @@
 ![GenI-Banner](https://github.com/genilab-fau/genial-fau.github.io/blob/8f1a2d3523f879e1082918c7bba19553cb6e7212/images/geni-lab-banner.png?raw=true)
 
-# Comparison of 16 prompt engineering methods using LLM (phi4) for Requirement Analysis
-
+# Comparison of 16 prompt engineering methods using LLM (phi4)
 1-liner description of your project
 
 <!-- WHEN APPLICABLE, REMOVE THE COMMENT MARK AND COMPLETE
