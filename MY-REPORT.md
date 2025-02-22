@@ -89,9 +89,9 @@ These prompting methods were used to write a comprehensive requirements analysis
 
 # Further research
 
-1. Fine-Tuning on Specialized Regulatory Data: Explore the benefits of fine-tuning language models on domain-specific datasets related to regulatory and tax analysis. This specialization might yield more precise state-specific details and improve the overall completeness of the requirements analysis.
+1.	Fine-Tuning on Specialized Regulatory Data: Explore the benefits of fine-tuning language models on domain-specific datasets related to regulatory and tax analysis. This specialization might yield more precise state-specific details and improve the overall completeness of the requirements analysis.
 
-2. Parameter Sensitivity and Optimization: Conduct experiments to evaluate the impact of key configuration parameters—such as temperature, context window (derived from word count), and prediction length—on the quality of responses. Optimizing these settings may lead to more controlled and reliable outputs.
+2.	Parameter Sensitivity and Optimization: Conduct experiments to evaluate the impact of key configuration parameters—such as temperature, context window (derived from word count), and prediction length—on the quality of responses. Optimizing these settings may lead to more controlled and reliable outputs.
 
-3. Hybrid Approaches and Ensemble Methods: Consider combining elements from the best-performing approaches (for example, integrating the detailed state-by-state breakdown from prompt chaining with the succinct structure of program-aided language models) to produce ensemble responses that leverage the strengths of each method.
+3.	Hybrid Approaches and Ensemble Methods: Consider combining elements from the best-performing approaches (for example, integrating the detailed state-by-state breakdown from prompt chaining with the succinct structure of program-aided language models) to produce ensemble responses that leverage the strengths of each method.
 
