@@ -31,7 +31,8 @@ There are 16 notebooks using different prompting techniques that execute a langu
 1.	It defines an various prompts that instructs the model to verify its understanding by asking clarifying questions if needed before producing a detailed, state-specific requirements analysis. The prompt includes specific instructions covering a general overview, state-by-state details (such as tax rates, filing deadlines, and documentation mandates), compliance obligations, exemptions, and key business challenges.
 2.	The code then prints this prompt and calculates its word count. This word count is used as part of the configuration for the model request— to help set the context window size.
 3.	Next, it creates a payload by specifying parameters like the target model ("phi4"), a temperature setting of 0.3 for controlled output randomness, the word count as the context size, and a prediction length of up to 5000 tokens.
-4.	Finally, the payload is sent to the model which returns both the model’s response and the time taken for the request. The response and the processing time are then printed. These outputs are stored in prompt_methods_results (both html and csv files) for analysis.
+4.	Finally, the payload is sent to the model which returns both the model’s response and the time taken for the request. The response and the processing time are then printed.
+5.	These outputs are stored in [prompt_methods_results](http://www.fernandokoch.me) (both html and csv files) for analysis.
 
 
 # Results
