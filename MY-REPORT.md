@@ -54,14 +54,11 @@ These prompting methods were used to write a comprehensive requirements analysis
 
 1. Prompt Chaining: Delivers an exceptionally detailed, state‑by‑state breakdown that covers tax rates, filing deadlines, documentation requirements, and additional nuances. Its clear organization and final consolidated answer make it the strongest overall.
 
-automatic_prompt_engineering.ipynb
- • Offers an extensive, state‑specific analysis with rich details for each state. Despite including an extra calculation prompt at the end, the comprehensive nature of the response earns it a high ranking.
+2. Automatic Prompt Engineering: Offers an extensive, state‑specific analysis with rich details for each state. Despite including an extra calculation prompt at the end, the comprehensive nature of the response earns it a high ranking.
 
-self_consistency.ipynb
- • Produces a final, well‐organized consolidated analysis that reflects consistent reasoning across multiple internal paths without exposing those internal details, ensuring clarity and completeness.
+3. Self Consistency: Produces a final, well‐organized consolidated analysis that reflects consistent reasoning across multiple internal paths without exposing those internal details, ensuring clarity and completeness.
 
-program‑aided_language_models.ipynb
- • Provides a clear and concise final analysis that covers key regulatory aspects—even if it’s not as granular as the top two, it remains highly useful and structured.
+4. Program‑aided Language Models: Provides a clear and concise final analysis that covers key regulatory aspects—even if it’s not as granular as the top two, it remains highly useful and structured.
 
 automatic_reasoning.ipynb
  • Presents a solid overall overview with key points on taxation, broker licensing, and reporting requirements. While it is less detailed on individual states compared to higher‐ranked responses, it remains a strong summary.
