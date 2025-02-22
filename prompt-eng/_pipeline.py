@@ -126,7 +126,7 @@ if __name__ == "__main__":
     PROMPT = MESSAGE 
     payload = create_payload(
                          target="ollama",   
-                         model="llama3.2:latest", 
+                         model="deepseek-r1:14b", 
                          prompt=PROMPT, 
                          temperature=1.0, 
                          num_ctx=100, 
