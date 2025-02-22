@@ -13,7 +13,7 @@ This is a response to the Assignment part of the COURSE.
   
 # Research Question 
 
-1-liner description of your request (or exploration).. Make it enthusiastically!
+Prompting for Precision: A Comparative Analysis of Methods
 
 ## Arguments
 
