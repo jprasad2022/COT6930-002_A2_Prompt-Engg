@@ -8,7 +8,7 @@
 This is a response to the Assignment part of the COURSE.
 -->
 
-* Authors: Jay Prasad
+* Author: Jay Prasad (Group: restart)
 * Academic Supervisor: [Dr. Fernando Koch](http://www.fernandokoch.me)
 
   
