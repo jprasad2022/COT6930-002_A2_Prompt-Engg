@@ -20,27 +20,15 @@ A comparative analysis of prompts methods in augmenting requirement analysis for
 
 #### What is already known about this topic
 
-* you could do {something} to achieve {some result}
-* the challenges of {doing something}
-* the possibility of {doing something else}
-* ...
+The existing body of research on prompting has established several effective strategies, including active prompting, prompt chaining, chain-of-thought reasoning, and meta prompting. These methods are known for their ability to guide language models in producing coherent, detailed, and task-specific outputs by providing clear instructions, breaking down complex tasks into manageable steps, and sometimes even encouraging the model to verify its own reasoning before delivering a final response. This foundational knowledge underscores the importance of well-structured prompts that delineate both the desired content and the format of the output, ensuring that the language model remains focused on the task at hand.
 
 #### What this research is exploring
 
-<!-- Free-format; use the topics that are applicable to your exploration  -->
-
-* we employ {some technique}
-* we are building {something}
-* we are exploring {some idea or technology}
+The comparative analysis of the 16 prompts provided new insights into how different prompting approaches can affect the quality of the generated responses. Notably, prompt chaining and automatic prompt engineering emerged as top performers, delivering detailed, state-by-state analyses that were both comprehensive and well-organized. In contrast, prompts that exposed internal reasoning—such as those using chain-of-thought—sometimes compromised the clarity of the final output by including extraneous internal deliberations. Additionally, meta prompts, while useful for instructing subsequent tasks, were less effective as stand-alone responses. This analysis suggests that the balance between explicit instruction and maintaining output brevity is crucial for optimizing response quality.
 
 #### Implications for practice
 
-<!-- Free-format; use the topics that are applicable to your exploration  -->
-
-* it will be easier to {do something}
-* it will optimize {some process}
-* we will better understand {some process}
-* ...
+These findings have significant implications for both research and practical applications. They indicate that refining prompt structures—by emphasizing final, consolidated answers and minimizing exposure of internal reasoning—can lead to more reliable and user-friendly outputs, especially in complex domains like regulatory analysis. Moreover, the insights gained point toward the potential benefits of hybrid approaches that combine the strengths of multiple prompting techniques, as well as the development of standardized evaluation metrics to further assess and improve prompt performance. This research paves the way for future work in optimizing prompt design, model fine-tuning, and the integration of advanced prompting strategies to meet specialized analytical tasks.
 
 # Research Method
 
