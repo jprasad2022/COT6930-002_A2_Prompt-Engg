@@ -71,7 +71,7 @@ These prompting methods were used to write a comprehensive requirements analysis
 
 16. Prompt Template: This output is entirely off‑topic, presenting an analysis of environmental regulations in California rather than the surplus lines tax requirements across all 50 states.
 
-**PS**: While prompt techniques can enhance responses, as an insurance domain expert, I believe they fall short—likely because the LLM doesn't seem to be thoroughly trained on insurance-specific data.
+_**PS**: While prompt techniques can enhance responses, as an insurance domain expert, I believe they fall short—likely because the LLM doesn't seem to be thoroughly trained on insurance-specific data. So, one method may be better than others, but even the best ranked method is not adequate._
 
 # Further research
 
