@@ -39,7 +39,7 @@ There are 16 notebooks using different prompting techniques that execute a langu
 
 These prompting methods were used to write a comprehensive requirements analysis for Surplus Lines Tax regulations across all 50 states. These responses have been ranked and displayed in order (appearing first means the best and last means the worst). The ranking factors in overall clarity, organization, completeness (including both a general framework and detailed state‐specific information), and whether the output adheres to the final–answer requirement without exposing internal reasoning or off‐topic content. 
 
-1. Prompt Chaining: Delivers a detailed, state‑by‑state breakdown that covers tax rates, filing deadlines, documentation requirements, and additional nuances. Its clear organization and final consolidated answer make it the strongest overall.
+1. **Prompt Chaining**: Delivers a detailed, state‑by‑state breakdown that covers tax rates, filing deadlines, documentation requirements, and additional nuances. Its clear organization and final consolidated answer make it the strongest overall.
 
 2. Automatic Prompt Engineering: Offers an extensive, state‑specific analysis with rich details for each state. Despite including an extra calculation prompt at the end, the comprehensive nature of the response earns it a high ranking.
 
