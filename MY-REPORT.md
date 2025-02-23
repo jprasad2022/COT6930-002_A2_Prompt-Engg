@@ -28,7 +28,7 @@ These findings have significant implications for both research and practical app
 # Research Method
 
 There are 16 notebooks using different prompting techniques that execute a language model workflow designed to generate a comprehensive analysis of Surplus Lines Tax regulations across all 50 states. It works in several key steps:
-1.	It defines an various prompts that instructs the model to verify its understanding by asking clarifying questions if needed before producing a detailed, state-specific requirements analysis. The prompt includes specific instructions covering a general overview, state-by-state details (such as tax rates, filing deadlines, and documentation mandates), compliance obligations, exemptions, and key business challenges.
+1.	It defines various prompts that instructs the model to verify its understanding by asking clarifying questions if needed before producing a detailed, state-specific requirements analysis. The prompt includes specific instructions covering a general overview, state-by-state details (such as tax rates, filing deadlines, and documentation mandates), compliance obligations, exemptions, and key business challenges.
 2.	The code then prints this prompt and calculates its word count. This word count is used as part of the configuration for the model request— to help set the context window size.
 3.	Next, it creates a payload by specifying parameters like the target model ("phi4"), a temperature setting of 0.3 for controlled output randomness, the word count as the context size, and a prediction length of up to 5000 tokens.
 4.	Finally, the payload is sent to the model which returns both the model’s response and the time taken for the request. The response and the processing time are then printed.
@@ -39,7 +39,7 @@ There are 16 notebooks using different prompting techniques that execute a langu
 
 These prompting methods were used to write a comprehensive requirements analysis for Surplus Lines Tax regulations across all 50 states. These responses have been ranked and displayed in order (appearing first means the best and last means the worst). The ranking factors in overall clarity, organization, completeness (including both a general framework and detailed state‐specific information), and whether the output adheres to the final–answer requirement without exposing internal reasoning or off‐topic content. 
 
-1. Prompt Chaining: Delivers an exceptionally detailed, state‑by‑state breakdown that covers tax rates, filing deadlines, documentation requirements, and additional nuances. Its clear organization and final consolidated answer make it the strongest overall.
+1. Prompt Chaining: Delivers a detailed, state‑by‑state breakdown that covers tax rates, filing deadlines, documentation requirements, and additional nuances. Its clear organization and final consolidated answer make it the strongest overall.
 
 2. Automatic Prompt Engineering: Offers an extensive, state‑specific analysis with rich details for each state. Despite including an extra calculation prompt at the end, the comprehensive nature of the response earns it a high ranking.
 
@@ -70,6 +70,8 @@ These prompting methods were used to write a comprehensive requirements analysis
 15. Meta: Provides an excellent meta prompt that could instruct an AI to generate the desired analysis. However, it is not a final consolidated analysis itself, so it ranks lower when considering the task’s requirements.
 
 16. Prompt Template: This output is entirely off‑topic, presenting an analysis of environmental regulations in California rather than the surplus lines tax requirements across all 50 states.
+
+**PS**: While prompt techniques can enhance responses, as an insurance domain expert, I believe they fall short—likely because the LLM wasn't thoroughly trained on insurance-specific data.
 
 # Further research
 
