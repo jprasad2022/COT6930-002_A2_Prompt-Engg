@@ -1,6 +1,6 @@
 ![GenI-Banner](https://github.com/genilab-fau/genial-fau.github.io/blob/8f1a2d3523f879e1082918c7bba19553cb6e7212/images/geni-lab-banner.png?raw=true)
 
-# Comparison of 16 prompt engineering methods using Phi-4
+# Comparative Analysis of 16 Prompt Engineering Methods using Phi-4
 
 * Author: Jay Prasad (Group name: restart)
 * Academic Supervisor: [Dr. Fernando Koch](http://www.fernandokoch.me)
@@ -71,7 +71,7 @@ These prompting methods were used to write a comprehensive requirements analysis
 
 16. **Prompt Template**: This output is entirely off‑topic, presenting an analysis of environmental regulations in California rather than the surplus lines tax requirements across all 50 states.
 
-**_**PS**: While prompt techniques can enhance responses, as an insurance domain expert, I believe they fall short—likely because the LLM doesn't seem to be thoroughly trained on insurance-specific data. So, one method may be better than others, but even the best ranked method is not adequate._**
+_**PS**: While prompt techniques can enhance responses, as an insurance domain expert, I believe they fall short—likely because the LLM doesn't seem to be thoroughly trained on insurance-specific data. So, one method may be better than others, but even the best ranked method is not adequate._
 
 # Further research
 
