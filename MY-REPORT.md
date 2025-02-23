@@ -32,7 +32,7 @@ There are 16 notebooks using different prompting techniques that execute a langu
 2.	The code then prints this prompt and calculates its word count. This word count is used as part of the configuration for the model request— to help set the context window size.
 3.	Next, it creates a payload by **specifying parameters like the target model ("phi4"), a temperature setting of 0.3 for controlled output randomness, the word count as the context size, and a prediction length of up to 5000 tokens. llama3.2 performed worse than phi4. Increasing context size to match word counts in prompt helped improve relevance of the responses. Increasing prediction length also helped get larger and complete responses.**
 4.	Finally, the payload is sent to the model which returns both the model’s response and the time taken for the request. The response and the processing time are then printed.
-5.	These outputs are stored in **prompt_methods_results** (both html and csv files) for analysis.
+5.	Code blocks in **run_all_methods.py** and **run_all_methods_collect_response.py** run all jupyter notebooks and collect responses. These outputs are stored in **prompt_methods_results** (both html and csv files) for analysis.
 
 
 # Results
