@@ -71,7 +71,7 @@ These prompting methods were used to write a comprehensive requirements analysis
 
 16. Prompt Template: This output is entirely off‑topic, presenting an analysis of environmental regulations in California rather than the surplus lines tax requirements across all 50 states.
 
-**PS**: While prompt techniques can enhance responses, as an insurance domain expert, I believe they fall short—likely because the LLM wasn't thoroughly trained on insurance-specific data.
+**PS**: While prompt techniques can enhance responses, as an insurance domain expert, I believe they fall short—likely because the LLM doesn't seem to be thoroughly trained on insurance-specific data.
 
 # Further research
 
@@ -80,4 +80,3 @@ These prompting methods were used to write a comprehensive requirements analysis
 2.	Parameter Sensitivity and Optimization: Conduct experiments to evaluate the impact of key configuration parameters—such as temperature, context window (derived from word count), and prediction length—on the quality of responses. Optimizing these settings may lead to more controlled and reliable outputs.
 
 3.	Hybrid Approaches and Ensemble Methods: Consider combining elements from the best-performing approaches (for example, integrating the detailed state-by-state breakdown from prompt chaining with the succinct structure of program-aided language models) to produce ensemble responses that leverage the strengths of each method.
-
